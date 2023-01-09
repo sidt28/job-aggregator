@@ -160,12 +160,12 @@
         </button>
         <div class="collapse navbar-collapse" id="nvbCollapse">
           <!-- Arama -->
-          <div class="ml-auto">
+          <div>
            <!-- get method for mysql connection-->
             <form action="" method="GET">
                 <div class="input-group mb-3">
-                    <input type="text" name="profile" value="<?php if(isset($_GET['profile'])){echo $_GET['profile'];} ?>" class="form-control" placeholder="profile" id="profile-input">
-                    <input type="text" name="Comapny" value="" class="form-control" placeholder="Comapny" id="company-input">      
+                    <input type="text" name="profile" value=" <?php if(isset($_GET['profile'])){echo $_GET['profile'];} ?>" class="form-control" placeholder="profile" id="profile-input">
+                    <input type="text" name="Comapny" value="<?php if(isset($_GET['company'])){echo $_GET['company'];} ?>" class="form-control" placeholder="Comapny" id="company-input">      
                     <button class="btn btn-#ffd700 search-btn border-left-0 border-dark rounded-0" type="submit"> </button>
                 </div>
             </form>

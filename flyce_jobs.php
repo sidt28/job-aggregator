@@ -74,14 +74,14 @@ include("auth_session.php");
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="http://localhost/jobagg/"><img src="img1.jpeg" style="border-radius: 15px; width:100%; height:350%;"></a>
+      <a class="navbar-brand" href="http://localhost/jobagg/"><img src="images/img1.jpeg" style="border-radius: 15px; width:100%; height:350%;"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li class="active" id="s"><a href="#myCarousel">Home</a></li>
         <li><a href="#top">Top Jobs</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="http://localhost/jobagg/add.php">Project</a></li>
+        <li><a href="job_search.php">Searches</a></li>
         <li><a href="#team">Contact</a></li>
         <li>
         <p class="w3-large">
@@ -105,7 +105,7 @@ include("auth_session.php");
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="img46.jpeg" style="height:50%">
+        <img src="images/img46.jpeg" style="height:50%">
         <div class="carousel-caption">
         <h3><a href="#exp"><button type="button" class="w3-button w3-round w3-orange w3-opacity w3-hover-opacity-off">Explore</button></a>        
         </h3>
@@ -113,7 +113,7 @@ include("auth_session.php");
       </div>
 
       <div class="item">
-        <img src="img47.jpeg" style="height:50%">
+        <img src="images/img47.jpeg" style="height:50%">
         <div class="carousel-caption">
         <h3><a href="#exp"><button type="button" class="w3-button w3-round w3-orange w3-opacity w3-hover-opacity-off">Explore</button></a> 
         </h3>        
@@ -121,7 +121,7 @@ include("auth_session.php");
       </div>
 
       <div class="item">
-        <img src="img48.jpeg" style="height:50%">
+        <img src="images/img48.jpeg" style="height:50%">
         <div class="carousel-caption">
           <h3><a href="#exp"><button type="button" class="w3-button w3-round w3-orange w3-opacity w3-hover-opacity-off">Explore</button></a> 
           </h3>
@@ -149,7 +149,7 @@ include("auth_session.php");
       <div class="w3-card">
         <h4> linkdin</h4>
         <a data-gtm-type="card" data-gtm-allowed-actions="click" class="people-card__image gtm-track-element" href="https://www.linkedin.com/company/linkedin/" target="_blank">
-        <img class="people-card__img" src="img28.jpeg" style="width:30%">
+        <img class="people-card__img" src="images/img28.jpeg" style="width:30%">
         </a> 
       </div>
     </div>   
@@ -159,7 +159,7 @@ include("auth_session.php");
       <div class="w3-card">
         <h4>indeed</h4>
         <a data-gtm-type="card" data-gtm-allowed-actions="click" class="people-card__image gtm-track-element" href="https://in.indeed.com/" target="_blank">
-        <img class="people-card__img" src="img29.jpeg" style="width:36%">
+        <img class="people-card__img" src="images/img29.jpeg" style="width:36%">
         </a>   
       </div> 
     </div>
@@ -168,7 +168,7 @@ include("auth_session.php");
       <div class="w3-card">
         <h4>naukari.com</h4>
         <a data-gtm-type="card" data-gtm-allowed-actions="click" class="people-card__image gtm-track-element" href="https://www.naukri.com/" target="_blank">
-        <img class="people-card__img" src="img30.jpeg" style="width:50%">
+        <img class="people-card__img" src="images/img30.jpeg" style="width:50%">
         </a>    
       </div>
     </div>
@@ -177,7 +177,7 @@ include("auth_session.php");
       <div class="w3-card">
         <h4>Monster</h4>
         <a data-gtm-type="card" data-gtm-allowed-actions="click" class="people-card__image gtm-track-element" href="https://www.monsterindia.com/" target="_blank">
-        <img class="people-card__img" src="img31.jpeg" style="width:47%;">
+        <img class="people-card__img" src="images/img31.jpeg" style="width:47%;">
         </a>    
       </div>
     </div>
@@ -186,7 +186,7 @@ include("auth_session.php");
       <div class="w3-card">
         <h3>flexjobs</h3>
         <a data-gtm-type="card" data-gtm-allowed-actions="click" class="people-card__image gtm-track-element" href="https://www.flexjobs.com/" target="_blank">
-        <img class="people-card__img" src="img32.jpeg" style="width:20%">
+        <img class="people-card__img" src="images/img32.jpeg" style="width:20%">
         </a>    
       </div>
     </div>
@@ -196,7 +196,7 @@ include("auth_session.php");
 <!-- About our Website" -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="about">
 <div class="w3-content">
-    <h1 class="w3-center w3-text-green" style="font-size:3vw"><b>About Our Website</b><span style="margin-left:10%"><img src="img1.jpeg" style="border-radius: 25px; width:30%; height:50%;"></span></h1>
+    <h1 class="w3-center w3-text-green" style="font-size:3vw"><b>About Our Website</b><span style="margin-left:10%"><img src="images/img1.jpeg" style="border-radius: 25px; width:30%; height:50%;"></span></h1>
     <!--<img class="w3-padding w3-opacity-min" src="img" style="width:20%;margin:32px 0">-->
     <p style="font-size:150%"><i>What we are
  is a job search engine designed to make the process of finding a job on the internet easier for the user. It maps the huge selection of job offerings available on the internet in one extensive database by referencing job listings originating from job boards, recruitment agency websites and large specialist recruitment sites. Using a fast and straightforward interface, users can query this database and save themselves the trouble of visiting each site individually. The job offerings themselves are not hosted by flyce jobs and users are always redirected to the original job listing. Essentially, flyce jobs acts as traffic driver to those sites.
@@ -217,22 +217,22 @@ flyce jobs uses smart agents running on a cluster of networked computers that sc
   <div class="w3-row-padding w3-center" style="margin-top:64px;">
     <div class="col-sm-6 w3-margin-center">
       <div class="w3-card">
-        <img class= "people-card__img" src="img25.jpeg" alt="Yashaswi" style="width:51%">
+        <img class= "people-card__img" src="images/img25.jpeg" alt="Person 1" style="width:51%">
         <div class="w3-container">
-          <h3>Yashaswi</h3>
-          <p class="w3-opacity">3rd year</p>
-          <p>Btech IT</p>
+          <h3>Person 1</h3>
+          <p class="w3-opacity">Designation</p>
+          <p>Place</p>
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i><a herf="Drishtisharma33@gmail.com">Contact</a></button></p>
         </div>
       </div>
     </div>
     <div class="col-sm-6 w3-margin-bottom">
       <div class="w3-card">
-        <img class="people-card__img" src="img26.jpeg" alt="Drishti" style="width:30%">
+        <img class="people-card__img" src="images/img26.jpeg" alt="Person 2" style="width:30%">
         <div class="w3-container">
-          <h3>Drishti</h3>
-          <p class="w3-opacity">3rd year</p>
-          <p>Btech IT</p>
+          <h3>Person 2</h3>
+          <p class="w3-opacity">Designation</p>
+          <p>Place</p>
           <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"><a herf="Drishtisharma33@gmail.com"></i> Contact</a></button></p>
         </div>
       </div>
@@ -248,7 +248,7 @@ flyce jobs uses smart agents running on a cluster of networked computers that sc
   <div class="w3-row-padding w3-center" style="margin-top:64px;">
     <div class="col-sm-6 w3-margin-center">
       <div class="w3-card">
-        <img class= "people-card__img" src="img33.jpeg" alt="google" style="">
+        <img class= "people-card__img" src="images/img33.jpeg" alt="google" style="">
         <h3>Google</h3>
           <p class="w3-opacity">We are here to inform you that Google recruiters are looking for skilled candidates to attain the Software Engineer and Android Developer positions. Also, job seekers who are looking for Google Careers can check this page. Interested candidates of Any Bachelors Degree can make their career in Google can check this post very deliberately because you can get some precise data related to Jobs For Freshers In Google.</p>
         <div class="w3-container">
@@ -258,7 +258,7 @@ flyce jobs uses smart agents running on a cluster of networked computers that sc
 
     <div class="col-sm-6 w3-margin-center">
       <div class="w3-card">
-        <img class= "people-card__img" src="img38.jpeg" alt="accenture" style="">
+        <img class= "people-card__img" src="images/img38.jpeg" alt="accenture" style="">
         <h3>Accenture</h3>
           <p class="w3-opacity">Are you passionate to work in the Technology field and want to enhance your technical skills? then you are in the right place. Accenture is providing a great chance for the candidates who are trying for the job. Accenture Recruitment 2022 is going to conduct an Accenture Recruitment for freshers to recruit the contenders for various vacant positions in the organization.            
           </p>
@@ -270,7 +270,7 @@ flyce jobs uses smart agents running on a cluster of networked computers that sc
     <div class="w3-row-padding w3-center" style="margin-top:64px;">
     <div class="col-sm-6 w3-margin-center">
       <div class="w3-card">
-        <img class= "people-card__img" src="img37.jpeg" alt="google" style="">
+        <img class= "people-card__img" src="images/img37.jpeg" alt="google" style="">
         <h3>Paytm</h3>
           <p class="w3-opacity">It is India's leading financial services company that offers full-stack payments & financial solutions to consumers, offline merchants and online platforms. The company is on a mission to bring half a billion Indians into the mainstream economy through payments, commerce, banking, investments, and financial services. One97 Communications Limited that owns the brand Paytm is founded by Vijay Shekhar Sharma and is headquartered in Noida, Uttar Pradesh. Its investors include Softbank, Ant Financial, AGH Holdings, SAIF Partners, Berkshire Hathaway,
 
@@ -283,7 +283,7 @@ T Rowe Price, and Discovery Capital.</p>
 
     <div class="col-sm-6 w3-margin-center">
       <div class="w3-card">
-        <img class= "people-card__img" src="img39.jpeg" alt="accenture" style="">
+        <img class= "people-card__img" src="images/img39.jpeg" alt="accenture" style="">
         <h3>Amazon</h3>
           <p class="w3-opacity"> We develop the technology that Amazon uses to deliver orders as quickly, accurately, and cost effectively as possible into the hands of our customers. We streamline our processes using the latest applications in science, machine learning, and scalable software on the cloud. We are constantly evolving to raise the bar on the customer experience.
 
@@ -295,7 +295,7 @@ We are looking for diverse people who like solving problems, enjoy working with 
     
     <div class="col-sm-6 w3-margin-center">
       <div class="w3-card">
-        <img class= "people-card__img" src="img17.jpeg" alt="accenture" style="">
+        <img class= "people-card__img" src="images/img17.jpeg" alt="accenture" style="">
         <h3>Uber</h3>
           <p class="w3-opacity">At Uber we’re reimagining the way the world moves for the better. That means being bold in our decisions and building for something bigger. For us, all of that starts with helping people go anywhere and get anything: cars, takeout, motorcycles, groceries, bikes, people, scooters, items, trucks, buses. It’s what we know and what we do best. And we do it at the speed of now.
 
