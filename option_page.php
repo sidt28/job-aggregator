@@ -63,30 +63,30 @@
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-header" style="margin: top 0 ;">
+    <a class="navbar-brand" href="flyce_jobs.php">
+      <img src="images/img1.jpeg" style="border-radius: 15px; width:100%; height:350%;">
+    </a>
+  </div>
   <div class="collapse navbar-collapse" id="myNavbar">
-    <div class="navbar-header" style="margin: top 0 ;">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="http://localhost/jobagg/"><img src="img1.jpeg" style="border-radius: 15px; width:100%; height:350%;"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active" id="s"><a href="http://localhost/jobagg/">Home</a></li>
-      </ul>
-    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active" id="s" style = "margin-right: 40px;"><a href="flyce_jobs.php">Home</a></li>
+    </ul>
   </div>
 </nav>
-
 
 <div class="w3-row-padding w3-center" style="margin-top:64px;">
     <div class="col-sm-4">
       <div class="w3-card">
         <h4>indeed</h4>
-        <a data-gtm-type="card" data-gtm-allowed-actions="click" class="people-card__image gtm-track-element" href="http://localhost/jobagg/indjob.php" target="_blank">
-        <img class="people-card__img" src="img29.jpeg" style="width:36%">
+        <a 
+          data-gtm-type="card"
+          data-gtm-allowed-actions="click"
+          class="people-card__image gtm-track-element"
+          href="indjob.php"
+          target="_blank"
+        >
+          <img class="people-card__img" src="images/img29.jpeg" style="width:36%">
         </a>   
       </div> 
     </div>
@@ -94,8 +94,14 @@
     <div class="col-sm-4">
       <div class="w3-card">
         <h4>naukari.com</h4>
-        <a data-gtm-type="card" data-gtm-allowed-actions="click" class="people-card__image gtm-track-element" href="http://localhost/jobagg/naukjob.php" target="_blank">
-        <img class="people-card__img" src="img30.jpeg" style="width:50%">
+        <a 
+          data-gtm-type="card"
+          data-gtm-allowed-actions="click"
+          class="people-card__image gtm-track-element"
+          href="naukjob.php"
+          target="_blank"
+        >
+          <img class="people-card__img" src="images/img30.jpeg" style="width:50%">
         </a>    
       </div>
     </div>
@@ -103,10 +109,18 @@
     <div class="col-sm-4">
       <div class="w3-card">
         <h4>Monster</h4>
-        <a data-gtm-type="card" data-gtm-allowed-actions="click" class="people-card__image gtm-track-element" href="http://localhost/jobagg/monsterjob.php" target="_blank">
-        <img class="people-card__img" src="img31.jpeg" style="width:47%;">
+        <a 
+          data-gtm-type="card"
+          data-gtm-allowed-actions="click" 
+          class="people-card__image gtm-track-element" 
+          href="monsterjob.php" 
+          target="_blank"
+        >
+          <img class="people-card__img" src="images/img31.jpeg" style="width:47%;">
         </a>    
       </div>
     </div>
    </div>
 </div>
+</body>
+</html>

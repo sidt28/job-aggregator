@@ -4,7 +4,7 @@
     <style>
     .navbar
     {
-      background-color: #484848;
+      background-color:#484848;
     }
     .bottombar
     {
@@ -139,29 +139,33 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="index.css" />
-    <title>Linked Search</title>
+    <title>
+      Flyce Jobs | Job Aggregator
+    </title>
+    <link href="images/img1.jpeg" rel="icon" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand text-white" href="#">Linked Search</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#nvbCollapse"
-          aria-controls="nvbCollapse"
-        >
-          <span class="navbar-toggler-icon"></span>
+      
+        <a class="navbar-brand">
+          <img src="images/img1.jpeg" 
+               style="border-radius: 15px; width:10%; height:35%;">
+        </a>
+
+        <li class="navbar-brand text-white" style="text-align: center;">
+          Search
+        </li>
+        
         </button>
         <div class="collapse navbar-collapse" id="nvbCollapse">
           <!-- Arama -->
-          <div class="ml-auto">
+          <div>
            <!-- get method for mysql connection-->
             <form action="" method="GET">
                 <div class="input-group mb-3">
-                    <input type="text" name="profile" value="<?php if(isset($_GET['profile'])){echo $_GET['profile'];} ?>" class="form-control" placeholder="profile" id="profile-input">
-                    <input type="text" name="Comapny" value="" class="form-control" placeholder="Comapny" id="company-input">      
+                    <input type="text" name="Profile" value=" <?php if(isset($_GET['profile'])){echo $_GET['profile'];} ?>" class="form-control" placeholder="profile" id="profile-input">
+                    <input type="text" name="Comapny" value="<?php if(isset($_GET['company'])){echo $_GET['company'];} ?>" class="form-control" placeholder="Comapny" id="company-input">      
                     <button class="btn btn-#ffd700 search-btn border-left-0 border-dark rounded-0" type="submit"> </button>
                 </div>
             </form>
@@ -170,8 +174,8 @@
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item pl-1">
-              <a class="nav-link" href="http://localhost/jobagg/#top"
-                ><i class="fa fa-home fa-fw mr-1"></i>Home</a>
+              <a class="nav-link" href="flyce_jobs.php">Home</a>
+              <a class="nav-link" href="option_page.php">Back</a>
             </li>
           </ul>
         </div>
@@ -195,7 +199,7 @@
                     <!--php used to make a connection with local host database-->
                     <tbody>
                         <?php
-                        $con = new mysqli("localhost","root","12345","indj");
+                        $con = new mysqli("localhost","","","indj");
                         if ($con -> connect_errno)
                          {
                             echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
@@ -250,12 +254,12 @@
             </div>
        </div>         
     </div>
-    <div class="bottombar">
-      <p class="navbar-brand text-white" href="#">&copy; linkedsearch</p>
+  <div class="bottombar">
+    <p class="navbar-brand text-white" href="#"></p>
       <p class="navbar-brand text-white coloured">
-        Contact - +91 338383 linked@gmail.com
+        Contact - +91 XXXXXXXXXX xyz@gmail.com
       </p>
-    </div>
-    ></script>
-  </body>
+  </div>
+</script>
+</body>
 </html>

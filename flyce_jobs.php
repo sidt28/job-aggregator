@@ -81,11 +81,11 @@ include("auth_session.php");
         <li class="active" id="s"><a href="#myCarousel">Home</a></li>
         <li><a href="#top">Top Jobs</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="job_search.php">Searches</a></li>
+        <li><a href="option_page.php">Searches</a></li>
         <li><a href="#team">Contact</a></li>
         <li>
         <p class="w3-large">
-          <button class="w3-button w3-round w3-orange w3-opacity w3-hover-opacity-off" style="padding:8px 60px"><?php echo $_SESSION['username']; ?>!</button>
+          <button class="w3-button w3-round w3-orange w3-opacity w3-hover-opacity-off" style = "margin-right: 40px;"><?php echo $_SESSION['username']; ?>!</button>
         </p>
       </li> 
       </ul>
