@@ -9,33 +9,44 @@ Home Page
 ![Untitled3](https://user-images.githubusercontent.com/102846119/211765614-5d016ebf-b834-418d-8ceb-7d87d9b7ef1a.jpg)
 
 Top Jobs Page
+
 ![Untitled4](https://user-images.githubusercontent.com/102846119/211765682-1f00d0ed-25ec-4a20-9d83-2ef89d9f81d3.jpg)
 
 About Page
- ![Untitled5](https://user-images.githubusercontent.com/102846119/211765790-1296763b-30bd-4db8-8703-c934ea952cd1.jpg)
+
+![Untitled5](https://user-images.githubusercontent.com/102846119/211765790-1296763b-30bd-4db8-8703-c934ea952cd1.jpg)
 
 Searches Page: - At initial it will take us to login page if are not login 
+
 Contact Page
+
 ![Untitled6](https://user-images.githubusercontent.com/102846119/211765831-8ac30b47-3ec6-48df-8176-deb95b8b6d6d.jpg)
 
  
 
 Top Companies: - 
+
 (Before-)
- ![Untitled7](https://user-images.githubusercontent.com/102846119/211765899-32131941-e210-4f78-ada0-5787808cf7f2.jpg)
+
+
+![Untitled7](https://user-images.githubusercontent.com/102846119/211765899-32131941-e210-4f78-ada0-5787808cf7f2.jpg)
 
 (After Login- or now this is not on any parameters or ranks, this is just at random)
- ![Untitled8](https://user-images.githubusercontent.com/102846119/211765948-a8b1080a-cc37-4bad-a648-2350c3b516a8.jpg)
+
+![Untitled8](https://user-images.githubusercontent.com/102846119/211765948-a8b1080a-cc37-4bad-a648-2350c3b516a8.jpg)
 
 Login Page
- ![Untitled9](https://user-images.githubusercontent.com/102846119/211765973-b7b3db91-ff34-431b-b23c-124e862835af.jpg)
+
+![Untitled9](https://user-images.githubusercontent.com/102846119/211765973-b7b3db91-ff34-431b-b23c-124e862835af.jpg)
 
 
 (After login Username will be shown)
- ![Untitled10](https://user-images.githubusercontent.com/102846119/211766005-3566cf91-97c8-499e-bed4-c33495c33552.jpg)
+
+![Untitled10](https://user-images.githubusercontent.com/102846119/211766005-3566cf91-97c8-499e-bed4-c33495c33552.jpg)
 
 Searches Page
- ![Untitled11](https://user-images.githubusercontent.com/102846119/211766037-f2f53bec-37aa-467e-9d6c-7bd9728c3015.jpg)
+
+![Untitled11](https://user-images.githubusercontent.com/102846119/211766037-f2f53bec-37aa-467e-9d6c-7bd9728c3015.jpg)
 
 (When we select any one specific it will take to search, and it will search as per filter)
 ![Untitled12](https://user-images.githubusercontent.com/102846119/211766074-1c20e5af-9225-424b-af56-9d730622a06a.jpg)
