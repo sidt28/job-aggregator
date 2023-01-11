@@ -1,5 +1,7 @@
 Hi! Folks 
+
 This is a basic UI of job aggregator website. I have taken sample datasets “not original”. 
+
 Most of my files are with ‘.php’, extension (so it might not directly open on Chrome) & datasets also need to be stored. So, for that I have used Xampp, to locally host my site and store database.
 
 Home Page
